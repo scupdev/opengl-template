@@ -18,12 +18,3 @@ git clone https://github.com/chanlantern/opengl-template.git
 
 Windows: run the ./run.bat file
 
-Linux:
-
-First compile the code
-
-```
-mingw32-make -f MakeFile
-```
-
-Then run the executable in bin/
