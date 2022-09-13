@@ -1,0 +1,7 @@
+all: compile link
+
+compile:
+	g++ -c src/*.cpp src/*.c -std=c++14 -m64 -g -Wall -Iinclude -Llib
+
+link:
+	g++ *.o -o bin/game lib/libglfw3.a -lgdi32 -lopengl32
