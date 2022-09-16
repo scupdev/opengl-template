@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libgame.a CMakeFiles/game.dir/src/add.cpp.obj
+C:\mingw64\bin\ranlib.exe libgame.a

@@ -1,0 +1,8 @@
+C:/Programming/opengl-template/build/CMakeFiles/edit_cache.dir
+C:/Programming/opengl-template/build/CMakeFiles/rebuild_cache.dir
+C:/Programming/opengl-template/build/game/CMakeFiles/game.dir
+C:/Programming/opengl-template/build/game/CMakeFiles/edit_cache.dir
+C:/Programming/opengl-template/build/game/CMakeFiles/rebuild_cache.dir
+C:/Programming/opengl-template/build/main/CMakeFiles/openglTemplate.dir
+C:/Programming/opengl-template/build/main/CMakeFiles/edit_cache.dir
+C:/Programming/opengl-template/build/main/CMakeFiles/rebuild_cache.dir

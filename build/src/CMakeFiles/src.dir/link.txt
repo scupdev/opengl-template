@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libsrc.a CMakeFiles/src.dir/add.cpp.obj
+C:\mingw64\bin\ranlib.exe libsrc.a
