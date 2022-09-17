@@ -1,5 +1,4 @@
 cmake --build build/ --config Debug --target all
-cd build/main
+cd build/
 openglTemplate.exe
-cd ..
 cd ..
