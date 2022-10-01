@@ -9,10 +9,10 @@
 class Window {
     public:
         Window(int width, int height, const std::string& title);
-        ~Window();
+        virtual ~Window();
 
         void update();
-        void clear();
+        void clear(float r, float g, float b, float a);
         bool isRunning() {return running;}
 
     private:

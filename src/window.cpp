@@ -45,7 +45,7 @@ void Window::update() {
     }
 }
 
-void Window::clear() {
-    glClearColor(0.1f, 1.f, 0.3f, 1.f);
+void Window::clear(float r, float g, float b, float a) {
+    glClearColor(r,g,b,a);
     glClear(GL_COLOR_BUFFER_BIT);
 }
