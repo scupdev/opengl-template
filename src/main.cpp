@@ -1,7 +1,14 @@
 #include <iostream>
 #include <glad/glad.h>
+#include "include/window.hpp"
 
 int main() {
-    std::cout << "br" << "\n";
+    Window window(1024, 600, "Hello Opengl");
+
+    while (window.isRunning()) {
+        window.clear();
+        window.update();
+    }    
+    
     return 0;
 }
