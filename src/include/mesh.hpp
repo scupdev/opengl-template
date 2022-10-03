@@ -6,10 +6,16 @@
 
 class Vertex {
 public:
-  Vertex(const glm::vec3 &pos) { this->pos = pos; }
+  Vertex(const glm::vec3 &pos, const glm::vec2 &texCoords) {
+    this->pos = pos;
+    this->texCoords = texCoords;
+  }
+  inline glm::vec3* getPos() {return &pos;}
+  inline glm::vec2* getTexCoords() {return &texCoords;}
 
 private:
   glm::vec3 pos;
+  glm::vec2 texCoords;
 };
 
 class Mesh {
@@ -19,7 +25,7 @@ public:
   void draw();
 
 private:
-  enum { POSITION_VB, NUM_BUFFERS };
+  enum { POSITION_VB, TEX_COORD_VB, NUM_BUFFERS };
 
   GLuint VAO;
   GLuint vertexArrayBuffers[NUM_BUFFERS];

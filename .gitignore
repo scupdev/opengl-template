@@ -1,2 +1,3 @@
 build/
 glad.c
+*.h

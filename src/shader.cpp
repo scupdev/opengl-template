@@ -59,6 +59,7 @@ GLuint Shader::create(const std::string &vertexShader,
 
   glAttachShader(program, vs);
   glAttachShader(program, fs);
+
   glLinkProgram(program);
   glValidateProgram(program);
 
