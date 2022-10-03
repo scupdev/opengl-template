@@ -24,7 +24,7 @@ public:
   GLuint compile(const std::string &source, GLenum type);
   GLuint create(const std::string &vertexShader,
                 const std::string &fragmentShader);
-  GLuint getProgram() { return program; }
+  void bind();
 
 private:
   GLuint program;

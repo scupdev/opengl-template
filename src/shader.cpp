@@ -67,3 +67,7 @@ GLuint Shader::create(const std::string &vertexShader,
 
   return program;
 }
+
+void Shader::bind() {
+  glUseProgram(program);
+}
