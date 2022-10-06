@@ -18,9 +18,9 @@ int main() {
 
   Mesh mesh(vertices, sizeof(vertices)/sizeof(vertices[0]));
 
-  ShaderProgramSource source = parseShader("shaders/basic.shader");
+  ShaderProgramSource source = parseShader("../../res/shaders/basic.shader");
   Shader shader(source.VertexSource, source.FragmentSource);
-  Texture texture("res/pepe.jpg");
+  Texture texture("../../res/pepe.jpg");
 
   while (window.isRunning()) {
     window.clear(0.1f, 1.f, 0.3f, 1.f);
