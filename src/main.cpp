@@ -1,18 +1,19 @@
+#include <glad/glad.h>
+#include <iostream>
+#include <string>
+
 #include "include/shader.hpp"
 #include "include/window.hpp"
 #include "include/mesh.hpp"
 #include "include/texture.hpp"
-#include <glad/glad.h>
-#include <iostream>
-#include <string>
 
 int main() {
   Window window(1024, 600, "Hello Opengl");
 
   Vertex vertices[] = {
-    Vertex(glm::vec3(-0.5f,-0.5,0), glm::vec2(0,0)),
+    Vertex(glm::vec3(-0.5f,-0.5f,0), glm::vec2(0,0)),
     Vertex(glm::vec3(0,0.5f,0), glm::vec2(0.5,1.0)),
-    Vertex(glm::vec3(0.5f,-0.5f,0), glm::vec2(1,0))
+    Vertex(glm::vec3(0.5f,-0.5f,0), glm::vec2(1,0)),
   };
 
   Mesh mesh(vertices, sizeof(vertices)/sizeof(vertices[0]));
